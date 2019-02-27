@@ -12,8 +12,14 @@ The idea behind this mini-project was to prepare for the larger "Wonkavator" pro
 This mini-project uses two Microbit sensors for inputs. One Microbit is wirelessly attached to the "wand" (a spatula, in this case) and transmits its X, Y, Z data. The second Microbit is connected to the computer via a USB port and it recieves the data transmitted from the wand (and then feeds the data into Wekinator).
 
 ### Feature Extractor Approaches:
-For feature extraction, what I've done is disable the "Y" inupt so that Wekinator only recieves X and Z inputs from the wand. In my experimentation, this improved the gesture recognition 3 fold (shown in the experiment table below)
+For feature extraction, what I've done is disable the "Y" inupt so that Wekinator only recieves X and Z inputs from the wand. In my experimentation, this improved the gesture recognition roughly 3 fold (shown in the Experiments table below)
 
+#### Experiments
+|Inputs | # Up gestures performed | # Down gestures performed | # Up gestures recognized | # Down gestures recognized 
+|-------| :---------------------: |:-------------------------:| :-----------------------:|:-------------------------:
+| X,Y,Z | 10                      | 10                        |  3                       | 2                         
+| X, Y  | 10                      | 10                        |  4                       | 5
+| X, Z  | 10                      | 10                        | 9                        | 8
 
 
 ## Demo Video:
