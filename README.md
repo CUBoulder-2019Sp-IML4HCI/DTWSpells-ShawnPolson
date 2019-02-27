@@ -5,7 +5,7 @@ Minimal code pieces to call an elevator with a "magic wand."
 Shawn Polson
 
 ## Goal:
-The idea behind this mini-project was to prepare for the larger "Wonkavator" project. The goal here was to create a Wekinator project that takes as input the X, Y, Z data from a microbit that is attatched to a "wand", and uses dynamic time warping to recognize "up" and "down" gestures from those inputs. Once Wekinator can reliably recognize "up" and "down" gestures performed with the wand, the only extra step needed to call an elevator would be to send the Wekinator output to some solenoid switches (not done here). 
+The idea behind this mini-project was to prepare for the larger "Wonkavator" project. The goal here was to create a Wekinator project that takes as input the X, Y, Z data from a Microbit that is attatched to a "wand", and uses dynamic time warping to recognize "up" and "down" gestures from those inputs. Once Wekinator can reliably recognize "up" and "down" gestures performed with the wand, the only extra step needed to call an elevator would be to send the Wekinator output to some solenoid switches (not done here). 
 
 ## Approach Used:
 ### Sensors:
