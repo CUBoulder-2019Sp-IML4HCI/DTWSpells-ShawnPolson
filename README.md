@@ -31,6 +31,8 @@ This structure remained constant during my experimentation because my feature ex
 | X, Y  | 10                      | 10                        |  4                       | 5
 | X, Z  | 10                      | 10                        | 9                        | 8
 
+## Future Improvements:
+The nexts steps to improve this mini-project would be to experiment more with the ML model structure, since it remained constant. In all likelihood, the gesture recognition would improve if this downsampled so examples have a max length of more than 10 (since higher numbers typically make it more accurate but slower to compute) and if this continuously matched using a minimum length of more than 5 (setting it to the length of the shortest example wouldn't be a bad idea). 
 
 ## Demo Video:
 https://youtu.be/kumwyzGUf74
