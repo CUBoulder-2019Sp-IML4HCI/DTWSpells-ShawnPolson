@@ -14,6 +14,16 @@ This mini-project uses two Microbit sensors for inputs. One Microbit is wireless
 ### Feature Extractor Approaches:
 For feature extraction, what I've done is disable the "Y" inupt so that Wekinator only recieves X and Z inputs from the wand. In my experimentation, this improved the gesture recognition roughly 3 fold (shown in the Experiments table below)
 
+### ML Model Structure:
+ - Dynamic Time Warping
+ - Matching computed continuously while running
+ - Downsample so examples have max length of 10
+ - Countinuous matches use a minimum length of 5
+ - Match width: 5
+ - Match hop size: 1
+ 
+This structure remained constant during my experimentation because my feature extraction gave me a good enough accuracy boost.
+
 #### Experiments
 |Inputs | # Up gestures performed | # Down gestures performed | # Up gestures recognized | # Down gestures recognized 
 |-------| :---------------------: |:-------------------------:| :-----------------------:|:-------------------------:
